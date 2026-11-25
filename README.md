@@ -1,4 +1,4 @@
-Computer practical for Microbial Genomics
+Microbial Genomics Functional Annotation
 ==============
 Visit the course page: https://jeromecollemare.github.io/MicrobialGenomics_FunctionalAnnotation/
 

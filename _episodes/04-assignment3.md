@@ -7,8 +7,8 @@ questions:
 objectives:
 - Compare predictions from different tools and different versions
 keypoints:
-- You can compare genome completness in eukaryotic genomes with BUSCO.
-- You can critically reflect on the results of BUSCO and provide technical and biological explanations.
+- Combining different tools is a good approach to validate a prediction
+- Different versions of the same tool will generate different results
 ---
 
 #  Background

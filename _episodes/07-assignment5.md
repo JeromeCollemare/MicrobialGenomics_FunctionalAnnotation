@@ -63,7 +63,6 @@ Let’s focus on genes that are commonly associated with virulence, secreted pro
 > {: .solution}
 {: .challenge}
 
-
 > ## Question 4
 > 
 > What are the characteristics of SSPs? How many of the predicted up-regulated or down-regulated genes encode SSPs?
@@ -74,7 +73,6 @@ Let’s focus on genes that are commonly associated with virulence, secreted pro
 >>
 > {: .solution}
 {: .challenge}
-
 
 > ## Question 5
 > 
@@ -87,7 +85,6 @@ Let’s focus on genes that are commonly associated with virulence, secreted pro
 >>
 > {: .solution}
 {: .challenge}
-
 
 > ## Question 6
 > 

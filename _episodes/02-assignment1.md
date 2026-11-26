@@ -20,8 +20,8 @@ Before performing a BLAST search locally, a BLAST database must be built. This s
 ~~~
 $ makeblastdb -dbtype prot -in /path/to/uniprot_sprot.fasta
 ~~~
-You can find more information about makeblastdb on the online BLAST manual https://www.ncbi.nlm.nih.gov/books/NBK279690/
 {: .bash}
+You can find more information about makeblastdb on the online BLAST manual https://www.ncbi.nlm.nih.gov/books/NBK279690/
 
 #  BLAST
 Using the BLAST manual and its Appendices (https://www.ncbi.nlm.nih.gov/books/NBK279690) or the BLAST help, prepare a suitable BLAST command to search the Swiss-Prot database with *Z. tritici* proteins as query. Follow the questions to guide you towards the needed command line.
@@ -37,7 +37,6 @@ Using the BLAST manual and its Appendices (https://www.ncbi.nlm.nih.gov/books/NB
 > {: .solution}
 {: .challenge}
 
-
 > ## Question 2
 > 
 > Which arguments do you have to use in any basic BLAST command?
@@ -48,14 +47,6 @@ Using the BLAST manual and its Appendices (https://www.ncbi.nlm.nih.gov/books/NB
 >> 
 > {: .solution}
 {: .challenge}
-
-
-We can now try to find out for how many different species there is at least one genome sequenced. We can do this using the command line. 
-
-~~~
-$ cat assembly_summary.txt | grep -v "^#" | cut -f8 | cut -f1,2 -d" " | sort -u | wc -l
-~~~
-{: .bash}
 
 Execute a test `BLAST` search using the file on the server .**~/data/fungalgenomics\_collemare/day1/Mycgr3.100000.fasta**, which contains a single sequence, and save the results in a text file. Open the result file. List the different information that are reported.
 
@@ -103,7 +94,6 @@ Test your command line with a single sequence first and save the results in a fi
 
 A fungal genome typically contains 10-12k genes. It is therefore not very handy to report several subject sequences for each protein and it is usually preferred to report the best hit only.
 
-
 > ## Question 6
 > 
 > Which argument can you use in the command line to report only the best hit per query sequence?
@@ -115,11 +105,9 @@ A fungal genome typically contains 10-12k genes. It is therefore not very handy 
 > {: .solution}
 {: .challenge}
 
-
 Test your command line with a single sequence first and save the results in a file. Open the file and check if the result corresponds to your expectation.
 
 Now that you are familiar with blast command lines, run a blast search for the first 30 annotated proteins of *Z. tritici* using the file on the server .**~/data/fungalgenomics\_collemare/day1/Mycgr3.30proteins.fasta** (the run should last around 5 minutes). Open the result file.
-
 
 > ## Question 7
 > 
@@ -151,7 +139,6 @@ The different reported regions for a single query are high-scoring pairs (HSPs).
 
 Test your command line and save the results in a file. Check if the results meet your expectations.
 
-
 > ## Question 9
 > 
 > Do all proteins share similarity with proteins from the Swiss-Prot database? If not, is there another argument that you could use to keep only the most relevant hits (choosing an arbitrary threshold)?
@@ -163,7 +150,6 @@ Test your command line and save the results in a file. Check if the results meet
 >> 
 > {: .solution}
 {: .challenge}
-
 
 > ## Question 10
 > 

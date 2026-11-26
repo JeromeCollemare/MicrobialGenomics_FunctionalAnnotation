@@ -37,7 +37,6 @@ Open the result files.
 
 Compare the results from the three tools.
 
-
 > ## Question 2
 > 
 > Are they all consistent? Start by finding the proteins predicted to contain a signal peptide and compare the predictions with the other tools. Then continue with transmembrane predictions and compare signalP and tmhmm.

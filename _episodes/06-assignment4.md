@@ -92,7 +92,6 @@ $ awk 'BEGIN{FS="\t"};{if($2>0 && $3>0 && $4>0 && $5>0 && $6>0 && $7>0) print $1
 > {: .solution}
 {: .challenge}
 
-
 Now, compare the size of the **specific** proteomes.
 
 > ## Question 5
@@ -110,9 +109,7 @@ Now, compare the size of the **specific** proteomes.
 > {: .solution}
 {: .challenge}
 
-
 As we are interested in protein functions, we can now compare which functions are found in the core and specific proteomes. For each cluster, the predicted PFAM conserved domains are indicated. For the following questions, using the Terminal and awk is easier, though it is also possible to do it in the spreadsheet.
-
 
 > ## Question 6
 > 
@@ -136,7 +133,6 @@ As we are interested in protein functions, we can now compare which functions ar
 > {: .solution}
 {: .challenge}
 
-
 > ## Question 7
 > 
 > What are the most abundantly represented functions in the core and specific proteomes (focus on the 10 most abundant)?
@@ -147,7 +143,6 @@ As we are interested in protein functions, we can now compare which functions ar
 >>
 > {: .solution}
 {: .challenge}
-
 
 
 #  Compare the gene content between different species
@@ -209,7 +204,6 @@ Adapt the bash command to retrieve PKS and NRPS proteins, which are very large p
 $ grep "PF02801\|PF00668" funannot.*.txt | awk '{if($2>1000) print $0}' | wc -l
 ~~~
 {: .bash}
-
 
 > ## Question 8
 > 

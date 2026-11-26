@@ -41,7 +41,6 @@ Execute a test HMMSCAN search with the minimum number of arguments and using the
 > {: .solution}
 {: .challenge}
 
-
 > ## Question 2
 > 
 > Should you output only the best hit as you did in the BLAST analysis?
@@ -52,7 +51,6 @@ Execute a test HMMSCAN search with the minimum number of arguments and using the
 >> 
 > {: .solution}
 {: .challenge}
-
 
 > ## Question 3
 > 

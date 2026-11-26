@@ -62,7 +62,6 @@ Go to the fungiSMASH results.
 > {: .solution}
 {: .challenge}
 
-
 nrPKSs are characterized by the following conserved domains: SAT-KS-AT-PT-TE, while
 reducing PKSs start immediately with the KS domain. Such organization is found in the
 NRPS/PKS domains tab.
@@ -100,7 +99,7 @@ domains tab.
 >
 >> ## Solution
 >> 
->> RNAseq
+>> The genome mining identified a candidate BGC only. A possible next step is to look at gene expression during the production of Talaroderxine C, and if possible, compare expression levels to a condition where the compounds is not produced. Other approaches like targeted gene deletion or heterologous expression could also be used, but these experiments are usually performed once the candidate BGC is supported with expression data.
 >>
 > {: .solution}
 {: .challenge}

@@ -19,7 +19,6 @@ The functional annotation of predicted proteomes allows researchers to perform c
 
 Because a functional annotation remains a prediction, it is always important to integrate this annotation with other information like transcriptomics, proteomics, networks, genomic context, etc.
 
-
 Yesterday, you executed a few tools that are commonly used to
 functionally annotate predicted proteomes. Today, **you will use the
 functional annotation** of complete proteomes (pre-computed for you)

@@ -25,7 +25,8 @@ While tools exist to automatically generate comprehensive functional annotations
 
 > ## Exercise
 > 
-> Take a few minutes to check the Funannotate tool and understand what it does: [Funannotate documentation](https://funannotate.readthedocs.io). From which tools and resources does it pull annotations to provide a functional annotation? 
+> Take a few minutes to check the Funannotate tool and understand what it does: [Funannotate documentation](https://funannotate.readthedocs.io).
+> From which tools and resources does it pull annotations to provide a functional annotation? 
 >
 >> ## Solution
 >> 

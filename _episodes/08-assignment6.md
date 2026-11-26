@@ -15,9 +15,9 @@ keypoints:
 
 #  Background
 
-In this exercise, we want to identify a candidate biosynthetic gene cluster (BGC) for the production of [taladerxine C](MicrobialGenomics_FunctionalAnnotation/files/talaroderxineC.pdf) by the fungus *Periconia macrospinosa*.
+In this exercise, we want to identify a candidate biosynthetic gene cluster (BGC) for the production of taladerxine C by the fungus *Periconia macrospinosa*.
 
-This molecule is an aromatic polyketide with three benzene rings, of which one is reduced, it is a dimer and it is structurally related to the [viriditoxin](MicrobialGenomics_FunctionalAnnotation/files/viriditoxin.pdf) compound for which the BGC is characterized in *Paecilomyces variotii*
+This molecule is an aromatic polyketide with three benzene rings, of which one is reduced, it is a dimer and it is structurally related to the viriditoxin compound for which the BGC is characterized in *Paecilomyces variotii*
 
 Based on these observations, we can elaborate several hypotheses that will guide the genome mining:
 1) The biosynthesis involves a non-reducing polyketide synthase (nrPKS)
